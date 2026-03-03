@@ -72,4 +72,4 @@ def test_system_flow():
     print("\nAll tests passed successfully!")
 
 if __name__ == "__main__":
-    run_test()
+    test_system_flow()
