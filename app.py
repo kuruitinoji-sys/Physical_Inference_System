@@ -5,6 +5,7 @@ from engine.security import SecurityGate
 from engine.blueprint import BlueprintManager
 from engine.decoder import LinguisticDecoder
 
+from mcp.server.fastmcp import FastMCP
 # MCPサーバーの初期化
 mcp = FastMCP("Physical-Inference-Core-Modular")
 
@@ -126,3 +127,4 @@ def get_blueprint_canvas(session_id: str) -> dict:
 
 if __name__ == "__main__":
     mcp.run(transport='stdio')
+
