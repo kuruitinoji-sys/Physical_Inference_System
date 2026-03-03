@@ -1,6 +1,7 @@
 # Physical Inference Core (Modular)
 
 This is a research-grade implementation of the Physical Inference Protocol, designed for agentic reasoning grounding.
+
 LLMの内部メタ認知プロセスを「物理的な流体運動」としてモデリングし、堅牢な推論制御を実現するMCPサーバーのリファレンス実装です。
 
 ## 🌟 特徴
@@ -66,4 +67,5 @@ You are equipped with a Physical Inference Engine. Follow these rules to ground 
 This module is a foundational "Physical Layer" component. Future developments will focus on:
 - **Projecting Logic to Logits**: Direct integration with Softmax/Logits.
 - **Physical Memory Partitioning**: Grounding context memory in the potential field.
+
 
