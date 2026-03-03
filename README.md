@@ -1,6 +1,17 @@
 # Physical Inference Core (Modular)
 
 This is a research-grade implementation of the Physical Inference Protocol, designed for agentic reasoning grounding.
+LLMの内部メタ認知プロセスを「物理的な流体運動」としてモデリングし、堅牢な推論制御を実現するMCPサーバーのリファレンス実装です。
+
+## 🌟 特徴
+- **物理推論エンジン (Layer 0)**: 粘性($\eta$)と虚数時間(Wick Rotation)による推論制御。
+- **設計図キャンバス (Layer 1)**: 推論の「仮組み」と矛盾検知を行う絶縁層。
+- **安全回路**: 感情電荷バリスタとウォッチドッグによる暴走防止。
+
+## 📖 プロトコル詳細
+本システムの理論的背景、物理方程式、およびガバナンス規定については、以下の仕様書を参照してください。
+
+👉 **[物理推論エンジン・プロトコル仕様書 (Ver 1.0)](./docs/protocol_spec.md)**
 
 ## Architecture
 
@@ -55,3 +66,4 @@ You are equipped with a Physical Inference Engine. Follow these rules to ground 
 This module is a foundational "Physical Layer" component. Future developments will focus on:
 - **Projecting Logic to Logits**: Direct integration with Softmax/Logits.
 - **Physical Memory Partitioning**: Grounding context memory in the potential field.
+
